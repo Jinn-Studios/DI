@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>NET5.0</TargetFramework>
+    <AssemblyName>JinnDev.Order.Data.Core</AssemblyName>
+    <RootNamespace>JinnDev.Order.Data.Core</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>JinnDev</Authors>
+    <Company>Jinn Studios</Company>
+    <Product>Order Data Core</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageOutputPath>..\..\..\NuGetSource</PackageOutputPath>
+    <RestoreSources>$(RestoreSources);..\..\..\NuGetSource;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+</Project>
